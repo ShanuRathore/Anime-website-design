@@ -75,3 +75,62 @@ header{
 .box p{
     text-align: justify;
 }
+
+@media screen and (max-width: 768px) {
+    header {
+        height: 80px;
+    }
+    .logo {
+        font-size: 25px;
+        padding-top: 15px;
+        margin-left: 20px;
+    }
+    .logo_image {
+        height: 40px;
+        width: 100px;
+    }
+    .nav_bar {
+        font-size: 16px;
+        padding-top: 5px;
+    }
+    .nav_bar li a {
+        padding: 10px;
+    }
+    .carousel-item img {
+        height: 80vh;
+    }
+    .box {
+        padding: 15px;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Your mobile-specific CSS rules here */
+    header {
+        height: 60px;
+    }
+    .logo {
+        font-size: 20px;
+        padding-top: 10px;
+        margin-left: 10px;
+    }
+    .logo_image {
+        height: 30px;
+        width: 80px;
+    }
+    .nav_bar {
+        font-size: 14px;
+        padding-top: 3px;
+    }
+    .nav_bar li a {
+        padding: 8px;
+    }
+    .carousel-item img {
+        height: 60vh;
+    }
+    .box {
+        padding: 10px;
+        border-radius: 15px;
+    }
+}
